@@ -1,0 +1,46 @@
+*{
+  color: #dc991d;
+}
+
+body {
+  background-color: #e1f4f3;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333333;
+}
+
+a {
+  color: #f1f9f9;
+}
+a:hover {
+  color: #f0f0f0;
+}
+button.normal{
+  font-size: 14px;
+  font-weight: 650;
+  padding: 18px 33px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+.modal-footer{
+  display: block;
+  align-items: center;
+}
+.modal-footer button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.modal-footer button:hover{
+  box-shadow: 10px 10px 54px rgba(70,62,221,0.5);
+  cursor: pointer;
+}
